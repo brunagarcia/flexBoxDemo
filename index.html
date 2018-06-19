@@ -9,6 +9,11 @@
 
 	<link href="style/mainStyle.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	    crossorigin="anonymous"></script>
+	<script src="js/jquery.js"></script>
 </head>
 
 <body>
@@ -29,11 +34,11 @@
 	<div class="textContainer">
 		<div>
 			<p>The container (white box above) have the attibutes define as:
-				<span class="highlight"> justify-content: space-around;</span>
+				<span id="spaceAround" class="highlight"> justify-content: space-around;</span>
 				</br>
 				You can also use the attibutes
-				<span class="highlight">justify-content: space-evenly;</span> and
-				<span class="highlight">justify-content: space-between;</span>
+				<span id="spaceEvenly" class="highlight">justify-content: space-evenly;</span> and
+				<span id="spaceBetween"class="highlight">justify-content: space-between;</span>
 			</p>
 			<img src="images/style1.png" alt="firstStyle" />
 			<p>The elements (black squares) inside the container have the attibutes define as: </p>
@@ -53,9 +58,17 @@
 	</div>
 	<div class="textContainer">
 		<div>
-			<p>The container (white box above) have the attibutes define as:</p>
-			<img src="images/style3.png" alt="firstStyle" />
-			<p> and the black boxes would have the same attributes as above.</p>
+			<p>The container (white box above) have the attibutes define as:
+				<span id="contentCenter" class="highlight"> justify-content: center;</span>
+				</br>
+				You can also use the attibutes
+				<span id="contentEnd" class="highlight">justify-content: flex-end;</span> to align all the elements to the right and
+				<span id="contentStart" class="highlight">justify-content: flex-start;</span> to align all elements to the left.
+			</p>
+			<img src="images/style5.png" alt="firstStyle" />
+			<p>The elements (black squares) inside the container have the same attibutes as above, making simple to just style the parent
+				container.
+			</p>
 		</div>
 	</div>
 	</br>
@@ -71,8 +84,14 @@
 	</div>
 	<div class="textContainer">
 		<div>
-			<p>The container (white box above) have the attibutes define as:</p>
-			<img src="images/style4.png" alt="firstStyle" />
+			<p>The container (white box above) have the attibutes define as:
+				<span id="alignBaseline" class="highlight"> align-items: baseline;</span>
+				</br>
+				You can also use the attibutes
+				<span id="alignEnd" class="highlight">align-items: flex-end;</span> to align all the elements to the right and
+				<span id="alignStart" class="highlight">align-items: flex-start;</span> to align all elements to the left.
+			</p>
+			<img src="images/styleCont3.png" alt="firstStyle" />
 			<p> and the black boxes would have the same attributes as above.</p>
 		</div>
 	</div>
@@ -80,17 +99,36 @@
 	<!-- FlexBox container Justify right.-->
 	<div class="ex4Container">
 		<!-- FlexBox Elements -->
-		<div class="box1"></div>
-		<div class="box1"></div>
-		<div class="box1"></div>
-		<div class="box1"></div>
-		<div class="box1"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
 	</div>
 	<div class="textContainer">
 		<div>
-			<p>The container (white box above) have the attibutes define as:</p>
-			<img src="images/style5.png" alt="firstStyle" />
-			<p> and the black boxes would have the same attributes as above.</p>
+			<p>For the container above, we added a new attribute call
+				<span id="flexWrap" class="highlight">flex-wrap: wrap;</span> which will wrap the elements inside the container.
+
+				</br>
+				You can also use the attibutes
+				<span id="noWrap" class="highlight">flex-wrap: nowrap;</span> to align all the elements to the right and
+				<span id="reverseWrap" class="highlight">flex-wrap: wrap-reverse;</span> to align all elements to the left.
+			</p>
+			<img src="images/styleCont4.png" alt="firstStyle" />
+			<p>We added some attributes to the elements (black squares) inside the container to make easier to visualize how the wrapping
+				works. </p>
+			<img src="images/style4.png" alt="firstStyle" />
 		</div>
 	</div>
 </body>
