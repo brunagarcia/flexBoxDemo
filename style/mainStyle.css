@@ -4,19 +4,23 @@ body {
     font-family: 'Muli', sans-serif
 }
 
+header {
+    text-align: center;
+}
+
 img{
     width: 50%;
     height: auto;
+}
+
+p {
+    color: black;
 }
 
 .smallText {
     color: white;
     font-size: 14px;
     margin-top: -20px;
-}
-
-header {
-    text-align: center;
 }
 
 .textContainer {
@@ -34,10 +38,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-p {
-    color: black;
 }
 
 .box1 {
